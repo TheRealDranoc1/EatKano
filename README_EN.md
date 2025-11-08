@@ -46,9 +46,9 @@ Follow these steps to change the text displayed to what you want.
 
    ```json
    {
-     "game-title": "Eat Kano",
-     "game-intro1": "Start from the bottom",
-     "game-intro2": "Can you tap 150 times?",
+     "game-title": "rimcha",
+     "game-intro1": "im a salmon",
+     "game-intro2": "im a fish",
      "text-level-1": "Try again?",
      "text-level-2": "Not bad",
      "text-level-3": "Nice",
@@ -91,8 +91,8 @@ Follow these few steps to configure the database for ranking list on your server
    if ($link->connect_error) {
        die("Failed to connect: " . $conn->connect_error);
    }
-   $ranking = "kano_rank";
-   ```
+   
+   
 
    
 
